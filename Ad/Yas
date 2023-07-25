@@ -1,0 +1,13 @@
+fun main() {
+    // Kullanıcıdan isim ve yaş bilgisini alma
+    println("Lütfen isminizi girin:")
+    val name = readLine()
+
+    println("Lütfen yaşınızı girin:")
+    val age = readLine()
+
+    // Girilen değerlerin ekrana yazdırılması
+    println("Girilen bilgiler:")
+    println("İsim: $name")
+    println("Yaş: $age")
+}
